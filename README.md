@@ -7,10 +7,11 @@ If you haven't got Git Plugin for Sketch, then follow these steps:
 ***
 ### New project
 #### Create folder where you add your sketch files
-#### Now we'll need to set up Git for your project.A bit terminal work, but you'll manage (make sure to be signed out of Pulse)
+#### Now we'll need to set up Git for your project.A bit terminal work, but you'll manage (make sure to be signed out of Pulse for this GitHub only tutorial)
 - First open terminal: open finder window, select Go from systems top bar, select Utilities, there you should see Terminal application - please open :)
 - at the moment your terminal is probably in different directory than your file, lets get change it to our project folder
 - in terminal window type `cd` and drag your project folder from finder into terminal window (mac magic), and hit Enter. you shoul now be in your project folder
+![img goes here](https://github.com/skybluemizu/DesignSystem-Beta/src/READMEimgs/term-cd.png "terminal cd")
 - now use `git init` to set up a project
 - then `git add .` to make sure git knows about all the files in your project folder (it wouldn't know until you add them, same if you created a new file that you'd like to be tracked)
 - now create your first commit (even if you haven't made any changes yet, this helps for plugin to set up) `git commit -m "NOTE ABOUT YOUR COMMIT NEEDS TO BE PLACED HERE"`
@@ -27,6 +28,8 @@ If you haven't got Git Plugin for Sketch, then follow these steps:
 - open your sketch file and make first set of changes
 - when done SAVE your file (this needs to happen first otherwise git won't see any changes)
 - then click plugins>Git>Commit (shortcut ctrl + alt + cmd + c) and add note about your changes (Standard Conventions for Commit Messages: Must be in quotation marks, Written in the present tense, Should be brief (50 characters or less))
+
+
 - You've just created the last step in our Git workflow. A commit permanently stores changes from the staging area inside the repository.
 - now it's time to share your work with the A-team, Plugins>Git>Push will push your branch up to the remote
 
