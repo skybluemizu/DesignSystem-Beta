@@ -4,7 +4,7 @@
 If you haven't got Git Plugin for Sketch, then follow these steps:
 - download [git plugin for sketch](https://github.com/mathieudutour/git-sketch-plugin/releases). **Only download latest version using top link**
 - install plugin (double click)
-
+***
 ### New project
 #### Create folder where you add your sketch files
 #### Now we'll need to set up Git for your project.A bit terminal work, but you'll manage (make sure to be signed out of Pulse)
