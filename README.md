@@ -11,6 +11,7 @@
 
 #### What's with that tree stuff
 Ok, it would try explain branching myslef but why would I do that if somebody already done it in a cute way [here](https://backlog.com/git-tutorial/stepup/stepup1_1.html)
+![](src/READMEimgs/git-model@2x.png )
 
 
 ## Starting up
