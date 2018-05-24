@@ -1,12 +1,28 @@
 # DesignSystem-Beta
 
+## What on earth is this Git stuff all about
+> Think of git as the state of the art in version control. It gives you a TON of control and provides all the features needed 
+> to accommodate hundreds of possible workflows. You can maintain multiple versions of a file, conduct multiple experiments and > yet preserve a clean “latest” version of your work. It lets you roll back your changes when needed, and you can even rewrite > history when you feel like it.
+> In a nutshell: git is an extremely smart and powerful tool. 
+*quote is coming from [Yes, designers can use Git too](https://blog.enki.com/yes-designers-can-use-git-too-79f3cef9c899) article*
+
+#### Local vs out there
+![](src/READMEimgs/git-flowforUI.png )
+
+#### What's with that tree stuff
+Ok, it would try explain branching myslef but why would I do that if somebody already done it in a cute way [here](https://backlog.com/git-tutorial/stepup/stepup1_1.html)
+
+
 ## Starting up
 If you haven't got Git Plugin for Sketch, then follow these steps:
-- download [git plugin for sketch](https://github.com/mathieudutour/git-sketch-plugin/releases). **Only download latest version using top link**
+- download [git plugin for sketch](https://github.com/mathieudutour/git-sketch-plugin/releases). **Only download latest version using top link**. If for any mysterious reasons the browser asks you to choose file extension, choose .zip
 - install plugin (double click)
+- it should do 'something' and then appear in your Sketch Plugins
 ***
 ### New project
 #### Create folder where you add your sketch files
+
+
 #### Now we'll need to set up Git for your project.A bit terminal work, but you'll manage (make sure to be signed out of Pulse for this GitHub only tutorial)
 - First open terminal: open finder window, select Go from systems top bar, select Utilities, there you should see Terminal application - please open :)
 - at the moment your terminal is probably in different directory than your file, lets get change it to our project folder
@@ -15,8 +31,10 @@ If you haven't got Git Plugin for Sketch, then follow these steps:
 - now use `git init` to set up a project
 ![](https://raw.githubusercontent.com/skybluemizu/DesignSystem-Beta/master/src/READMEimgs/git-init-add.png "init add")
 - then `git add .` to make sure git knows about all the files in your project folder (it wouldn't know until you add them, same if you created a new file that you'd like to be tracked)
-- now create your first commit (even if you haven't made any changes yet, this helps for plugin to set up) `git commit -m "NOTE ABOUT YOUR COMMIT NEEDS TO BE PLACED HERE"`
+- now create your first commit (even if you haven't made any changes yet, this helps for plugin to set up) `git commit -m "NOTE ABOUT YOUR COMMIT NEEDS TO BE PLACED HERE"` (I'd just get comment like Git setup, so you know there is no sketch involved in this on)
 ![](https://raw.githubusercontent.com/skybluemizu/DesignSystem-Beta/master/src/READMEimgs/git-commit.png "initial commit")
+
+
 #### Now lets set up a remote repository using [github](www.github.com). Create an account if you haven't got one
 - login to github, then from the landing page select either "Start project" or "New repository"
 ![](https://raw.githubusercontent.com/skybluemizu/DesignSystem-Beta/master/src/READMEimgs/github-homepage.png "github home")
@@ -30,8 +48,7 @@ If you haven't got Git Plugin for Sketch, then follow these steps:
 ![](https://raw.githubusercontent.com/skybluemizu/DesignSystem-Beta/master/src/READMEimgs/git-add-remote.png "terminal connect to remote repo")
 - then push your local repo into remote one with `git push -u origin master`
 #### Lets get back to safe and cosy Sketch
-- open your sketch file and make first set of changes
-- when done SAVE your file (this needs to happen first otherwise git won't see any changes)
+- open your sketch file
 - then click plugins>Git>Commit (shortcut ctrl + alt + cmd + c) and add note about your changes (Standard Conventions for Commit Messages: Must be in quotation marks, Written in the present tense, Should be brief (50 characters or less))
 ![](https://raw.githubusercontent.com/skybluemizu/DesignSystem-Beta/master/src/READMEimgs/sketch-commit.png "terminal cd")
 ![](https://raw.githubusercontent.com/skybluemizu/DesignSystem-Beta/master/src/READMEimgs/sketch-commit-m.png "terminal cd")
