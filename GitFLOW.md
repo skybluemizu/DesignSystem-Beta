@@ -2,9 +2,10 @@
 Git is not a trivial tool to get used to. Junior developers also need a bit of practice before getting familiar with it. But understanding the core functionality of git does not require a degree in computer science nor years of programming experience.
 
 ####Top tips:
-Git workflow dictates what kind of branches to set up and how to merge them together.
-When committing, write a title and a description with the changes you made.
-The master branch stores the official release history, and the DESIGN branch serves as an integration branch for features. It's also convenient to tag all commits in the master branch with a version number.
+- Git workflow dictates what kind of branches to set up and how to merge them together.
+- When committing, write a title and a description with the changes you made.
+- The master branch stores the official release history, and the DESIGN branch serves as an integration branch for features. 
+- It's also convenient to tag all commits in the master branch with a version number.
 
 ####The FLow
 1. The first step is to complement the default master with a DESIGN branch. A simple way to do this is for one designer to create an empty DESIGN branch locally and push it to the server
