@@ -22,10 +22,10 @@ Using a dedicated branch to prepare releases makes it possible for one team memb
 
 
 ####In the nutshell:
-    A DESIGN branch is created from master
-    A RELEASE branch is created from DESIGN
-    FEATURE branches are created from DESIGN
-    When a FEATURE is complete it is merged into the DESIGN branch
-    When the RELEASE branch is done it is merged into DESIGN and MASTER
-    If an issue in MASTER is detected a hotfix branch is created from MASTER
-    Once the hotfix is complete it is merged to both DESIGN and MASTER
+- A DESIGN branch is created from master
+- A RELEASE branch is created from DESIGN
+- FEATURE branches are created from DESIGN
+- When a FEATURE is complete it is merged into the DESIGN branch
+- When the RELEASE branch is done it is merged into DESIGN and MASTER
+- If an issue in MASTER is detected a hotfix branch is created from MASTER
+- Once the hotfix is complete it is merged to both DESIGN and MASTER
